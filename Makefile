@@ -1,7 +1,4 @@
-install: install-vim install-bash install-psql \
-         install-virtualenvwrapper \
-         install-terminal-settings install-git \
-	 install-python install-keybindings
+install: install-vim install-git install-zsh
 
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
@@ -11,6 +8,10 @@ install-vim:
 install-bash:
 	rm -f ~/.bashrc
 	ln -s `pwd`/bash/bashrc ~/.bashrc
+
+install-zsh:
+	rm -f ~/.zshrc
+	ln -s `pwd`/zsh/zshrc ~/.zshrc
 
 install-psql:
 	rm -f ~/.psqlrc

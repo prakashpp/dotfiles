@@ -1,5 +1,6 @@
-[include]
-	path = .gitconfig.local
+[user]
+	name = Prakash Pandey
+	email = prakash.pandey@openlabs.co.in
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input
