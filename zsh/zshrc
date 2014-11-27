@@ -87,6 +87,9 @@ source $ZSH/oh-my-zsh.sh
 # Tryton config file
 export TRYTOND_CONFIG=/etc/trytond.conf
 
+# Hub alias
+eval "$(hub alias -s)"
+
 # export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 #no_python_setup_py_install() {

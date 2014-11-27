@@ -1,4 +1,4 @@
-install: install-vim install-git install-zsh
+install: install-vim install-git install-zsh install-virtualenvwrapper
 
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
