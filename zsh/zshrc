@@ -88,10 +88,16 @@ source $ZSH/oh-my-zsh.sh
 export TRYTOND_CONFIG=/etc/trytond.conf
 
 # Hub alias
-eval "$(hub alias -s)"
+# eval "$(hub alias -s)"
 
 # export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
 
 #no_python_setup_py_install() {
 #}
 #alias python=no_python_setup_py_install
+
+alias pinstall="pip install -U --no-deps --force ."
+
+# Lets go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
