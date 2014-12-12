@@ -1,4 +1,4 @@
-install: install-vim install-git install-zsh install-virtualenvwrapper
+install: install-vim install-git install-zsh install-virtualenvwrapper install-mercurial
 
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
@@ -44,3 +44,6 @@ install-keybindings:
 	rm -f ~/Library/KeyBindings/DefaultKeyBinding.dict
 	mkdir -p ~/Library/KeyBindings
 	ln -s `pwd`/osx/DefaultKeyBinding.dict ~/Library/KeyBindings/DefaultKeyBinding.dict
+
+install-mercurial:
+	ln -s `pwd`/hg/hgrc ~/.hgrc
