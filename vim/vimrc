@@ -359,7 +359,7 @@ autocmd FileType php setlocal shiftwidth=4 tabstop=8 softtabstop=4 expandtab
 " template language support (SGML / XML too)
 " ------------------------------------------
 " and disable that stupid html rendering (like making stuff bold etc)
-autocmd FileType xml,html,htmljinja,htmldjango setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType xml,html,htmljinja,htmldjango setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType html,htmljinja,htmldjango imap <buffer> <c-e> <Plug>SparkupExecute
 autocmd FileType html,htmljinja,htmldjango imap <buffer> <c-l> <Plug>SparkupNext
 autocmd FileType html setlocal commentstring=<!--\ %s\ -->

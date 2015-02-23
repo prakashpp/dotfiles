@@ -54,7 +54,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow ssh-agent fabric docker brew virtualenv mercurial)
+plugins=(git git-flow ssh-agent fabric docker brew virtualenv mercurial aws)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,3 +101,8 @@ alias pinstall="pip install -U --no-deps --force ."
 # Lets go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# Tryton Client Alias
+alias tryton-3.0="open -n /Applications/Tryton\ 3.0.app"
+alias tryton-3.2="open -n /Applications/Tryton\ 3.2.app"
+alias tryton-3.4="open -n /Applications/Tryton\ 3.4.app"

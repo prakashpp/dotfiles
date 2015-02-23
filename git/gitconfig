@@ -72,6 +72,7 @@
 		git log --oneline $b..pr/$1; \
 		git update-ref -d refs/PR_MERGE_HEAD; \
 		}; f"
+	pr = pull-request
 [instaweb]
 	httpd=webrick
 [push]
